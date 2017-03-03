@@ -14,6 +14,7 @@
 		E4423D221E6980950036CBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4423D211E6980950036CBCF /* Assets.xcassets */; };
 		E4423D251E6980950036CBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4423D231E6980950036CBCF /* LaunchScreen.storyboard */; };
 		E4423D301E6980950036CBCF /* EmojiTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4423D2F1E6980950036CBCF /* EmojiTableViewTests.swift */; };
+		E4CEBB2D1E69BF5900FBF4D0 /* EmojiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CEBB2C1E69BF5900FBF4D0 /* EmojiDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E4423D2B1E6980950036CBCF /* EmojiTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4423D2F1E6980950036CBCF /* EmojiTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewTests.swift; sourceTree = "<group>"; };
 		E4423D311E6980950036CBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CEBB2C1E69BF5900FBF4D0 /* EmojiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				E4423D171E6980950036CBCF /* AppDelegate.swift */,
 				E4423D191E6980950036CBCF /* ViewController.swift */,
+				E4CEBB2C1E69BF5900FBF4D0 /* EmojiDetailViewController.swift */,
 				E4423D1B1E6980950036CBCF /* Main.storyboard */,
 				E4423D211E6980950036CBCF /* Assets.xcassets */,
 				E4423D231E6980950036CBCF /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CEBB2D1E69BF5900FBF4D0 /* EmojiDetailViewController.swift in Sources */,
 				E4423D201E6980950036CBCF /* EmojiTableView.xcdatamodeld in Sources */,
 				E4423D1A1E6980950036CBCF /* ViewController.swift in Sources */,
 				E4423D181E6980950036CBCF /* AppDelegate.swift in Sources */,
@@ -408,6 +412,7 @@
 				E4423D361E6980950036CBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4423D371E6980950036CBCF /* Build configuration list for PBXNativeTarget "EmojiTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				E4423D391E6980950036CBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
